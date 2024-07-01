@@ -158,7 +158,7 @@
         <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_DataTabel">[io_DataTabel]</InOutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:AppendRange DataTable="[io_DataTabel]" DisplayName="Append Range Workbook" sap:VirtualizedContainerService.HintSize="353.6,148" sap2010:WorkflowViewState.IdRef="AppendRange_2" SheetName="New" WorkbookPath="Data\Output\Employees.xlsx" />
+    <ui:AppendRange DataTable="[io_DataTabel]" DisplayName="Append Range Workbook" sap:VirtualizedContainerService.HintSize="353.6,148" sap2010:WorkflowViewState.IdRef="AppendRange_2" SheetName="Employees" WorkbookPath="Data\Output\Employees.xlsx" />
     <ui:Comment DisplayName="Comment (placeholder)" sap:VirtualizedContainerService.HintSize="353.6,79.2" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//  Invoke steps of the process" />
   </Sequence>
 </Activity>
