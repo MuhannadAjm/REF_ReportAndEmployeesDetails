@@ -149,6 +149,8 @@
                     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="System1_DataMerging - Invoke Workflow File (System_1\System1_DataMerging.xaml)" sap:VirtualizedContainerService.HintSize="353.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="System_1\System1_DataMerging.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_MergedDataTable">[io_dt_TransactionData]</InOutArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_PathFinanceReport">[in_Config("input_PathFinanceReport").ToString]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_PathEmployeesDetails">[in_Config("input_PathEmployeesDetails").ToString]</InArgument>
                       </ui:InvokeWorkflowFile.Arguments>
                     </ui:InvokeWorkflowFile>
                     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="System1_Age - Invoke Workflow File (System_1\System1_Age.xaml)" sap:VirtualizedContainerService.HintSize="353.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="System_1\System1_Age.xaml">

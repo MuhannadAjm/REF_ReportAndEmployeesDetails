@@ -49,9 +49,7 @@
       "Path": "System_1/System1_Filter Employees.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "today&Sequence_1",
-        "Birthday&Sequence_1",
-        "birthDate&Sequence_1"
+        "dt_DataTabel&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
         "io_DataTabel"
@@ -63,12 +61,12 @@
       "Path": "System_1/System1_FormatOfBirthday.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "FormattedDate&Sequence_2",
+        "FormattedDate&Sequence_1",
         "Birthdate&Sequence_1",
         "ParsedDate&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
-        "io_DataTabel"
+        "io_Datatabel"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -77,10 +75,10 @@
       "Path": "System_1/System1_Age.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "Age&Sequence_1",
-        "Today&Sequence_1",
         "BirthDate&Sequence_1",
-        "Birthday&Sequence_1"
+        "Birthday&Sequence_1",
+        "Today&Sequence_1",
+        "Age&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
         "io_DataTabel"
@@ -92,8 +90,8 @@
       "Path": "System_1/System1_PhoneNumber.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "cleanPhone&Sequence_2",
-        "phone&Sequence_2"
+        "phone&Sequence_1",
+        "cleanPhone&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
         "io_DataTabel"
@@ -105,8 +103,128 @@
       "Path": "System_1/System1_SplitFullName.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "FormattedName&Sequence_1",
-        "FullName&Sequence_1"
+        "in_FullName&Sequence_2",
+        "FormattedName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Name&Sequence_9",
+        "Phone&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System_DurationTime_Start.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtStartTime&Sequence_1",
+        "formattedDuration&Sequence_1",
+        "duration&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config",
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System1_WriteData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_DataTabel",
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System_DurationTime_End.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "duration&Sequence_1",
+        "formattedDuration&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "dtStartTime",
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System1_TaxedSalary.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Salary&Sequence_1",
+        "TaxRate&Sequence_1",
+        "TaxedSalary&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
         "io_DataTabel"
