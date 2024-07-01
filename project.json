@@ -1,0 +1,156 @@
+{
+  "name": "REF_ReportAndEmployeesDetails",
+  "projectId": "1c9c47c6-169b-43cd-a217-69009dd6d92d",
+  "description": "Robotic Enterprise Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Adrosonic.OutlookFolders.Activities": "[1.0.2]",
+    "BalaReva.EasyOutlook.Activities": "[3.0.0]",
+    "UiPath.Excel.Activities": "[2.23.4]",
+    "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.6.24]",
+    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.Testing.Activities": "[24.10.0]",
+    "UiPath.UIAutomation.Activities": "[24.10.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c4d21fbf-7247-4caa-b981-dae5b0b5f0ce",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b849b9ac-1b96-4358-8b3d-cbbdc513d437",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fbb6a6cc-0710-41df-9a2a-e6a815a663f0",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "63e104e0-5626-4aa9-b573-35955fc635cd",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "82009669-88d0-4cac-a298-a87a347e0c56",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "29d7c5fc-cf12-4765-bd91-9309d3fb17f5",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "bf8d79c4-c56f-403e-bd6e-27b9a4325f34",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "System_1\\System1_DataMerging.xaml",
+      "uniqueId": "9c5f5797-3f78-4e13-a1c1-ccb852a7654b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "System_1\\System1_Age.xaml",
+      "uniqueId": "3832f8d5-ccba-467d-a09a-5bd63a05ff1d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "System_1\\System1_Filter Employees.xaml",
+      "uniqueId": "a41f2ba0-af8d-4ddf-a1d2-7018569cbbf5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "System_1\\System1_FormatOfBirthday.xaml",
+      "uniqueId": "f96e8ff0-dcc2-4e1a-a98b-7be9b4404c2a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "System_1\\System1_SplitFullName.xaml",
+      "uniqueId": "7ce44812-8007-4a7e-9c3e-3fac8033fcaf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "System_1\\System1_TaxedSalary.xaml",
+      "uniqueId": "47f2b1c5-125a-486f-a5b0-37108495b80a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "System_1\\System_DownlodeReport.xaml",
+      "uniqueId": "0bc79c9d-e3aa-4fa6-b774-8a05625009a1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Framework\\GetTransactionData.xaml",
+      "uniqueId": "284df3b6-eddd-4899-9fdd-532b0dcad3b7",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

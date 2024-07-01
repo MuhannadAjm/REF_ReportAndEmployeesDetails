@@ -1,0 +1,93 @@
+{
+  "DisplayName": "GetTransactionData",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_TransactionNumber",
+      "DisplayName": "in_TransactionNumber",
+      "Category": null,
+      "Tooltip": "Sequential counter of transaction items.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Config",
+      "DisplayName": "in_Config",
+      "Category": null,
+      "Tooltip": "Dictionary structure to store configuration data of the process (settings, constants and assets).",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_TransactionItem",
+      "DisplayName": "out_TransactionItem",
+      "Category": null,
+      "Tooltip": "Transaction item to be processed.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_TransactionField1",
+      "DisplayName": "out_TransactionField1",
+      "Category": null,
+      "Tooltip": "Allow the optional addition of information about the transaction item.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_TransactionField2",
+      "DisplayName": "out_TransactionField2",
+      "Category": null,
+      "Tooltip": "Allow the optional addition of information about the transaction item.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_TransactionID",
+      "DisplayName": "out_TransactionID",
+      "Category": null,
+      "Tooltip": "Transaction ID used for information and logging purposes. Ideally, the ID should be unique for each transaction. ",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "io_dt_TransactionData",
+      "DisplayName": "io_dt_TransactionData",
+      "Category": null,
+      "Tooltip": "This variable can be used in case transactions are stored in a DataTable (for example, after being retrieved from a spreadsheet).",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

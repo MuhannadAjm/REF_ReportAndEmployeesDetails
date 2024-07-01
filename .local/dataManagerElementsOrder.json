@@ -1,0 +1,118 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System1_DataMerging.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_DataTabel2&Sequence_1",
+        "dt_DataTabel1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_MergedDataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System1_Filter Employees.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "today&Sequence_1",
+        "Birthday&Sequence_1",
+        "birthDate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System1_FormatOfBirthday.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FormattedDate&Sequence_2",
+        "Birthdate&Sequence_1",
+        "ParsedDate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System1_Age.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Age&Sequence_1",
+        "Today&Sequence_1",
+        "BirthDate&Sequence_1",
+        "Birthday&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System1_PhoneNumber.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "cleanPhone&Sequence_2",
+        "phone&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System_1/System1_SplitFullName.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FormattedName&Sequence_1",
+        "FullName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_DataTabel"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
